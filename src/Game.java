@@ -29,6 +29,10 @@ public class Game extends PApplet {
 	public static boolean wasClicked = false;
 	public static Point mousePoint;
 	
+	public static void main(String[] args) {
+		PApplet.main(new String[] { "Game" });
+	}
+	
 	public void setup() {
 		size(WIN_X_LENGTH, WIN_Y_HEIGHT);
 		
@@ -66,11 +70,6 @@ public class Game extends PApplet {
 		backState0 = loadImage("..\\assets\\state2Back.png");
 		endgame = loadImage("..\\assets\\endgame.png");
 		bruin = loadImage("..\\assets\\bruin.png");
-		/**
-		backState0 = loadImage("D:\\Users\\Anreeta\\Desktop\\HOTHV\\assets\\state2Back.png");
-		endgame = loadImage("D:\\Users\\Anreeta\\Desktop\\HOTHV\\assets\\endgame.png");
-		bruin = loadImage("D:\\Users\\Anreeta\\Desktop\\HOTHV\\assets\\bruin.png");
-		**/
 	}
 		
 		
